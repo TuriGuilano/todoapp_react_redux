@@ -1,0 +1,14 @@
+// partials start with an underscore: this way we can break up our project into pieces.
+// we use rems in our app because rems have better support for accessibility (user can now scale font-size)
+
+// we set this to be exact to 62.5% to end up in the base 10 system, just like pixels
+// so 2.2rem would become 22pixels
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.6rem;
+}

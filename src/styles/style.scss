@@ -1,5 +1,5 @@
-$brandColor: blue;
+// when we import partials we leave off the _ and the extention so _base.scss would be base
+@import './base/base';
+@import './components/header';
 
-* {
-	color: $brandColor;
-}
+
