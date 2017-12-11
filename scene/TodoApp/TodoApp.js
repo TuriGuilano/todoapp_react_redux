@@ -1,5 +1,10 @@
 import React from 'react';
-//import all childComponents
+import Header from './components/Header';
+import Option from './components/Option';
+import Options from './components/Options';
+import AddOption from './components/AddOption';
+import Action from './components/Action';
+import OptionModal from './components/OptionModal';
 
 export default class TodoApp extends React.Component {
   state = {
@@ -74,6 +79,8 @@ export default class TodoApp extends React.Component {
 
   // render
   render() {
+    const subtitle = 'Our react redux todoApp';
+
     return (
       <div>
         <Header subtitle={subtitle} />

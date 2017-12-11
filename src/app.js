@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import validator from 'validator';
-import TodoApp from './components/TodoApp';
+import TodoApp from '../scene/TodoApp/TodoApp';
 
 ReactDOM.render((
   <TodoApp />
